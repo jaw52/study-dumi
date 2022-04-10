@@ -8,7 +8,6 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   base: '/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/study-dumi/' : '/',
   exportStatic: {},
   // more config: https://d.umijs.org/config
 });
